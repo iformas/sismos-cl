@@ -33,7 +33,7 @@ sismos().then(function (sismos) {
     Magnitud: '3.1 Ml',
     Agencia: 'GUC',
     'Referencia Geográfica': '54 km al O de Tongoy' },
-    ...
+    ....
 ]
 ```
 
