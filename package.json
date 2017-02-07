@@ -8,15 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/iformas/sismos-cl.git"
+    "url": "https://github.com/iformas/sismos-cl/"
   },
   "keywords": [
     "npm",
     "chile",
     "sismos"
   ],
-  "author": "iformas",
+  "author": "iformas <iformas@hotmail.com>",
   "license": "MIT",
+
   "dependencies": {
     "cheerio": "^0.22.0",
     "lodash": "^4.17.4",
