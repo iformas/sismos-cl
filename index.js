@@ -3,6 +3,7 @@ const _ = require('lodash')
 const vow = require('vow');
 const cheerio = require("cheerio");
 
+
 module.exports = function () {
     return new vow.Promise(function (resolve, reject) {
         url = 'http://www.sismologia.cl/links/ultimos_sismos.html';

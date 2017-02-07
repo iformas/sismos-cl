@@ -1,6 +1,6 @@
 # sismos-cl
 
-Obtiene la información de los sismos en Chile cuya magnitud es igual o superior a 3.0 desde [sismologia.cl](http://www.sismologia.cl/links/ultimos_sismos.htm)
+Obtiene la información de los sismos en Chile cuya magnitud es igual o superior a 3.0 desde [sismologia.cl](http://www.sismologia.cl/links/ultimos_sismos.html)
 
   [![NPM Version][npm-image]][npm-url]
   [![NPM Downloads][downloads-image]][downloads-url]
