@@ -37,9 +37,13 @@ sismos().then(function (sismos) {
 ]
 ```
 
+## License
+
+  [MIT](LICENSE)
+
 [npm-image]: https://img.shields.io/npm/v/sismos-cl.svg
 [npm-url]: https://www.npmjs.com/package/sismos-cl
 [downloads-image]: https://img.shields.io/npm/dt/sismos-cl.svg
 [downloads-url]: https://www.npmjs.com/package/sismos-cl
 [travis-image]: https://api.travis-ci.org/iformas/sismos-cl.svg?branch=master
-[travis-url]: https://api.travis-ci.org/iformas/sismos-cl
+[travis-url]: https://travis-ci.org/iformas/sismos-cl
