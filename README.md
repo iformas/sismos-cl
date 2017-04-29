@@ -25,14 +25,14 @@ sismos().then(function (sismos) {
 ## Respuesta:
 
 ```javascript
-[ { 'fecha_local': '2017/02/07 08:49:54',
-    'fecha_utc': '2017/02/07 11:49:54',
-    'latitud': '-30.176',
-    'longitud': '-72.048',
-    'profundidad': '31.8',
-    'magnitud': '3.1 Ml',
-    'agencia': 'GUC',
-    'referencia_geografica': '54 km al O de Tongoy' },
+[ { fecha_local : '2017/02/07 08:49:54',
+    fecha_utc : '2017/02/07 11:49:54',
+    latitud : '-30.176',
+    longitud : '-72.048',
+    profundidad : '31.8',
+    magnitud : '3.1 Ml',
+    agencia : 'GUC',
+    referencia_geografica : '54 km al O de Tongoy' },
     ....
 ]
 ```
