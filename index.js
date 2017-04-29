@@ -15,13 +15,13 @@ module.exports = function () {
                 if (body) {
                     var $ = cheerio.load(body);
                     var sismos = [];
-                    var th = []
+                    var th = ["fecha_local", "fecha_utc", "latitud", "longitud", "profundidad", "magnitud", "referencia_geografica"]
                     $('tbody  > tr').each(function (index) {
                         var cells = $(this).children();
                         var sismo = {};
                         for (i = 0; i < cells.length; i++) {
                             if (th.length < (cells.length)) {
-                                th.push(cells.eq(i).text());
+                                return false;                                
                             } else {
                                 sismo[th[i]] = cells.eq(i).text();
                             }
@@ -31,7 +31,6 @@ module.exports = function () {
                         }
                     });
                     resolve(sismos);
-
                 } else {
                     reject(body);
                 }
