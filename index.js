@@ -15,7 +15,7 @@ module.exports = function () {
                 if (body) {
                     var $ = cheerio.load(body);
                     var sismos = [];
-                    var th = ["fecha_local", "fecha_utc", "latitud", "longitud", "profundidad", "magnitud", "referencia_geografica"]
+                    var th = ["fecha_local", "fecha_utc", "latitud", "longitud", "profundidad", "magnitud", "agencia", "referencia_geografica"]
                     $('tbody  > tr').each(function (index) {
                         var cells = $(this).children();
                         var sismo = {};
