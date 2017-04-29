@@ -19,7 +19,7 @@ module.exports = function () {
                     $('tbody  > tr').each(function (index) {
                         var cells = $(this).children();
                         var sismo = {};
-                        for (i = 0; i < cells.length; i++) {
+                        for (i = 8; i < cells.length; i++) {
                             if (th.length < (cells.length)) {
                                 return false;                                
                             } else {
