@@ -1,6 +1,6 @@
 {
   "name": "sismos-cl",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "Obtiene la información de los sismos en Chile cuya magnitud es igual o superior a 3.0",
   "main": "index.js",
   "scripts": {
