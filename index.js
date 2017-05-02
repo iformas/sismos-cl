@@ -8,8 +8,7 @@ module.exports = function () {
         url = 'http://www.sismologia.cl/links/ultimos_sismos.html';
         request(url, function (err, response, body) {
             if (err) {
-                reject(err);
-                return false;
+                reject(err);     
             }
             try {
                 if (body) {
@@ -22,7 +21,7 @@ module.exports = function () {
                             var sismo = {};                        
                             for (i = 0; i < cells.length; i++) {
                                 if (th.length < (cells.length)) {
-                                    return false;                                
+                                    reject(new Error('El numero de columnas es mayor al formato especificado | ¿El sitio fue actualizado?'));                               
                                 } else {
                                     sismo[th[i]] = cells.eq(i).text();
                                 }

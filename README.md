@@ -18,7 +18,9 @@ $npm install sismos-cl
 var sismos = require('sismos-cl');
 
 sismos().then(function (sismos) {
- 		console.log(sismos);
+	console.log(sismos);
+}).catch(function (error){
+	console.log(error);
 });
 ```
 
