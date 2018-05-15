@@ -6,6 +6,9 @@ Obtiene la información de los sismos en Chile cuya magnitud es igual o superior
   [![NPM Downloads][downloads-image]][downloads-url]
   [![Test Travis][travis-image]][travis-url]
 
+## Ejemplo:
+
+[Sismos-Cl]([example-url])
 
 ## Instalación:
 ```
@@ -38,12 +41,6 @@ sismos().then(function (sismos) {
     ....
 ]
 ```
-
-## Ejemplo:
-
-Sismos-Cl
-
-[Sismos-Cl]([example-url])
 
 ## License
 
