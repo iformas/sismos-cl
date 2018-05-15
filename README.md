@@ -39,6 +39,12 @@ sismos().then(function (sismos) {
 ]
 ```
 
+## Ejemplo:
+
+Sismos-Cl
+
+[Sismos-Cl]([example-url])
+
 ## License
 
   [MIT](LICENSE)
@@ -49,3 +55,4 @@ sismos().then(function (sismos) {
 [downloads-url]: https://www.npmjs.com/package/sismos-cl
 [travis-image]: https://api.travis-ci.org/iformas/sismos-cl.svg?branch=master
 [travis-url]: https://travis-ci.org/iformas/sismos-cl
+[example-url]:http://sismos-cl.herokuapp.com/
