@@ -8,7 +8,7 @@ Obtiene la información de los sismos en Chile cuya magnitud es igual o superior
 
 ## Ejemplo:
 
-[Sismos-Cl]([example-url])
+[Sismos-Cl](http://sismos-cl.herokuapp.com/)
 
 ## Instalación:
 ```
@@ -52,4 +52,3 @@ sismos().then(function (sismos) {
 [downloads-url]: https://www.npmjs.com/package/sismos-cl
 [travis-image]: https://api.travis-ci.org/iformas/sismos-cl.svg?branch=master
 [travis-url]: https://travis-ci.org/iformas/sismos-cl
-[example-url]:http://sismos-cl.herokuapp.com/
